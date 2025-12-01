@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+  font-family: 'Roca Two';
+  src: url('./assets/fonts/roca-two.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ginger';
+  src: url('./assets/fonts/ginger.woff2') format('woff2'),
+       url('./assets/fonts/ginger.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root{
     --color1: #dfd3c2;
@@ -12,9 +25,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik';
 }
 
 body{
     background-color: var(--color1);
+    font-family: 'Roca Two', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ginger', sans-serif;
 }

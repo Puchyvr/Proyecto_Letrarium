@@ -24,9 +24,9 @@
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  border: 2px solid #ddd;
+  border: 2px solid var(--color3);
   border-radius: 8px;
-  background: white;
+  background: var(--color1);
   cursor: pointer;
   transition: all 0.3s ease;
   min-width: 120px;
