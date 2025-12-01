@@ -1,0 +1,63 @@
+.contenedor-categorias {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenedor-categorias h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.cantidad-categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.tarjeta-categoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 120px;
+  gap: 0.5rem;
+}
+
+.tarjeta-categoria:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--color5);
+}
+
+.tarjeta-categoria.selected {
+  background-color: var(--color5);
+  border-color: var(--color5);
+  color: white;
+}
+
+.tarjeta-categoria.selected .nombre-categoria {
+  color: white;
+}
+
+.icono-categoria {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nombre-categoria {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+}
+
